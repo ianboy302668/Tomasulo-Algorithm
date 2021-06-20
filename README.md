@@ -38,12 +38,18 @@
         ADD F1, F4, F4
 
 ## 程式說明
- * Rs struct
-    bool busy
-    char inst_operator
-    int destination
-    double resource1, resource2
-    bool is_rat_i, is_rat_j // true: is a string of rat,  false: is a number
+ * Rs struct 
+
+        busy 
+      表示該RS是否有程式正在執行
+        
+        inst_operator 
+        
+        destination
+        
+        resource1, resource2
+        
+        is_rat_i, is_rat_j // true: is a string of rat,  false: is a number
  * Alu struct
 
 
