@@ -38,7 +38,7 @@
         ADD F1, F4, F4
 
 ## 程式說明
- * Rs struct 
+ * <font color=#00FF00>RS</font> struct 
  
     `busy` 表該RS是否有程式正在執行
     
@@ -50,7 +50,7 @@
     
     `is_rat_i` `is_rat_j` true: 為儲存於RAT的RS之index `非一般數字` /  false: 為一般數字
     
- * Alu struct
+ * <font color=#00FF00>Alu</font>  struct
  
     `int cycle` 該程式應結束的cycle
     
