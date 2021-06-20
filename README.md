@@ -39,13 +39,15 @@
 
 ## 程式說明
  * Rs struct 
-    <font color=#0000FF>int</front> `busy` 表示該RS是否有程式正在執行
-    `inst_operator`
-    `destination`
-    `resource1` `resource2`
-    `is_rat_i` `is_rat_j` true: ,  false: is a number
+    `busy` 表該RS是否有程式正在執行
+    `inst_operator` 表此RS當前儲存之operator為四則運算中其一
+    `destination` 同組合語言中的rd，用於儲存目標位置
+    `resource1` `resource2` 同組合語言中的rs，用於儲存來源位置
+    `is_rat_i` `is_rat_j` true: 為儲存於RAT的RS之index `非一般數字` /  false: 為一般數字
  * Alu struct
-
+    `int cycle` 該程式應結束的cycle
+    `int rs_index` RS的index
+    `bool is_empty` Buffer內是否有成是佔著
 
 ## 輸出範例
         Cycle 1
