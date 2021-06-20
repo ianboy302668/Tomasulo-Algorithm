@@ -39,7 +39,7 @@
 
 ## 程式說明
  * Rs struct 
-    <font color=#0000FF>int<front> `busy` 表示該RS是否有程式正在執行
+    <font color=#0000FF>int</front> `busy` 表示該RS是否有程式正在執行
     `inst_operator`
     `destination`
     `resource1` `resource2`
