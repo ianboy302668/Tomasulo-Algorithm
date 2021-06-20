@@ -14,25 +14,25 @@
   6. 重複執行直到所有程式碼皆寫入
 ## 輸入範例
  *需執行的cycle*
-    2
-    1
-    4
-    8
+        2
+        1
+        4
+        8
  *RF初始值*
-    0 
-    2 
-    4 
-    6 
-    8 
+        0 
+        2 
+        4 
+        6 
+        8 
  *Instruction*
-    ADDI F1, F2, 1
-    SUB F1, F3, F4
-    DIV F1, F2, F3
-    MUL F2, F3, F4
-    ADD F2, F4, F2
-    ADDI F4, F1, 2
-    MUL F5, F5, F5
-    ADD F1, F4, F4
+        ADDI F1, F2, 1
+        SUB F1, F3, F4
+        DIV F1, F2, F3
+        MUL F2, F3, F4
+        ADD F2, F4, F2
+        ADDI F4, F1, 2
+        MUL F5, F5, F5
+        ADD F1, F4, F4
 
 
 ## 輸出範例
