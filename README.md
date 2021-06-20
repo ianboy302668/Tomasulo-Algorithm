@@ -13,18 +13,18 @@
   5. 輸出結果
   6. 重複執行直到所有程式碼皆寫入
 ## 輸入範例
- *需執行的cycle*
+需執行的cycle
         2
         1
         4
         8
- *RF初始值*
+RF初始值
         0 
         2 
         4 
         6 
         8 
- *Instruction*
+Instruction
         ADDI F1, F2, 1
         SUB F1, F3, F4
         DIV F1, F2, F3
