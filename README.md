@@ -37,6 +37,15 @@
         MUL F5, F5, F5
         ADD F1, F4, F4
 
+## 程式說明
+ * Rs struct
+    bool busy
+    char inst_operator
+    int destination
+    double resource1, resource2
+    bool is_rat_i, is_rat_j // true: is a string of rat,  false: is a number
+ * Alu struct
+
 
 ## 輸出範例
         Cycle 1
